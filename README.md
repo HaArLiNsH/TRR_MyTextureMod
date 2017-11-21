@@ -1,5 +1,5 @@
 # TRR_MyTextureMod
-A clean and empty Custom folder , ready to use with TextureReplacerReplaced
+A clean and empty Custom folder for your textures , ready to use with TextureReplacerReplaced 
 
 
 Licence
