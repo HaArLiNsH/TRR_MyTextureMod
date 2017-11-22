@@ -1,0 +1,28 @@
+You can use this custom folder to host your texture for TRR. 
+
+You can either use it like it is or you can change the name TRR_MyTextureMod to your linking. 
+
+The name that you will choose must goes alphabetically AFTER TextureReplacerReplaced ! 
+
+I suggest you to use the prefix TRR_   and then use the name you want.
+
+
+If you change the name you have to use the same name in this locations : 
+
+- The name of the folder that goes in GameData/ 
+- The name of the file TRR_MyTextureMod.cfg
+- inside that .cfg : 
+
+TextureReplacerReplaced
+	{
+		Folders
+					{
+						Default = TRR_MyTextureMod/Default/
+						EnvMap = TRR_MyTextureMod/EnvMap/
+						Heads = TRR_MyTextureMod/Heads/
+						Suits = TRR_MyTextureMod/Suits/		
+					}
+	}
+
+You can also delete the "TRR_MyTextureMod.version" file if you change the name. 	
+	
